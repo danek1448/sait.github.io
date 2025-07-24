@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="stili.css">
+</head>
+<body>
+    <header>
+        <h1><B>Наши контакты</B></h1>
+		<img src="logo.jpg" alt="DaniilEnergy Logo" width="200">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="katalog.html">Каталог</a></li>
+            <li><a href="onas.html">О нас</a></li>
+            <li><a href="feedback.php">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Свяжитесь с нами</h2>
+        <form action="feedback.php" method="post">
+            <label>Имя:</label>
+            <input type="text" name="name" required>
+            
+            <label>Email:</label>
+            <input type="email" name="email" required>
+            
+            <label>Сообщение:</label>
+            <textarea name="message" required></textarea>
+            
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>2025 ИП Богдашкин Даниил Борисович.</p>
+    </footer>
+
+</body>
+</html>

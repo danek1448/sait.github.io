@@ -1,0 +1,92 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaniilEnergy - энергетические напитки</title>
+    
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+    
+    <link rel="stylesheet" type="text/css" href="stili.css">
+    
+    <link rel="icon" type="image/png" href="icon-192x192.png">
+    
+    <style>
+        #installButton {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: none;
+            z-index: 1000;
+        }
+    </style>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>DaniilEnergy</title>
+    <link rel="stylesheet" type="text/css" href="stili.css">
+</head>
+<body>
+    <header>
+        <h1><B>DaniilEnergy - ваши любимые напитки.</B></h1>
+		<img src="logo.jpg" alt="DaniilEnergy Logo" width="200">
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="katalog.html">Каталог</a></li>
+            <li><a href="onas.html">О нас</a></li>
+            <li><a href="feedback.php">Контакты</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h2>Популярные товары</h2>
+        <div class="products">
+            <div class="product">
+                <img src="energo1.png" alt="Original">
+                <h3>DaniilEnergy Оригинальный</h3>
+                <p>250 мл - 139 руб.</p>
+				<p>500 мл - 199 руб.</p>
+            </div>
+            <div class="product">
+                <img src="energo2.png" alt="Orange">
+                <h3>DaniilEnergy Апельсин</h3>
+                <p>250 мл - 149 руб.</p>
+				<p>500 мл - 189 руб.</p>
+			</div>
+			<div class="product">
+                <img src="energo3.png" alt="Cherry">
+                <h3>DaniilEnergy Вишня</h3>
+                <p>250 мл - 149 руб.</p>
+				<p>500 мл - 189 руб.</p>
+            </div>
+			<div class="product">
+                <img src="energo4.png" alt="Boost">
+                <h3>DaniilEnergy Boost</h3>
+                <p>250 мл - 159 руб.</p>
+				<p>500 мл - 249 руб.</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>2025 ИП Богдашкин Даниил Борисович.</p>
+    </footer>
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js', { scope: '/'});
+    }
+</script>
+</body>
+</html>
